@@ -21,6 +21,11 @@ vim.keymap.set("n", "<leader>q", vim.diagnostic.setloclist, {
 
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
 
+-- The default grr mapping is Normal-only; in Visual mode it replaces text.
+vim.keymap.set("x", "grr", "<Esc><Cmd>lua vim.lsp.buf.references()<CR>", {
+  desc = "LSP: find references",
+})
+
 local brackets = { ["("] = ")", ["["] = "]", ["{"] = "}" }
 
 for opening, closing in pairs(brackets) do

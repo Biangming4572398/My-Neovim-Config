@@ -30,6 +30,8 @@ and Go toolchains. Tree-sitter parsers provide syntax highlighting.
 ## Useful keys
 
 - `gd` goes to a definition; `grr` finds references; `K` shows documentation.
+- `grr` works in Normal mode and with a Visual selection. It finds references
+  to the symbol under the cursor, without replacing the selected text.
 - `<Space>rn` renames a symbol; `<Space>ca` opens code actions.
 - `<Space>f` formats the current file or visual selection.
 - `<Space>th` toggles inlay hints.
