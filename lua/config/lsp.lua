@@ -5,6 +5,8 @@ local servers = {
   "ruff",
   "ts_ls",
   "marksman",
+  "postgres_lsp",
+  "yamlls",
 }
 
 require("mason").setup()

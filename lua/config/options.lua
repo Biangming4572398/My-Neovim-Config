@@ -20,6 +20,8 @@ for name, value in pairs(options) do
 end
 
 vim.opt.shortmess:append("I")
+vim.g.sql_type_default = "pgsql"
+vim.g.omni_sql_default_compl_type = "syntax"
 vim.opt.list = true
 vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 

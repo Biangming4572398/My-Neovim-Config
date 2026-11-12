@@ -24,6 +24,10 @@
       "rev": "c9f9ed6c1892f629ea399f4ee7905f2686fa13f2",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter",
       "version": "'main'"
+    },
+    "pgsql.vim": {
+      "rev": "d15dcf6003a9b5e67de8e7cfa2dec0cf36e1cb2f",
+      "src": "https://codeberg.org/lifepillar/pgsql.vim"
     }
   }
 }
